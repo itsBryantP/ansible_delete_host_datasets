@@ -23,10 +23,3 @@
         state: absent
         type: MEMBER
       loop: '{{ psbs }}'
-
-   
-   
-
-
-
-# ./playbookrunner.sh playbooks/inventory playbooks/ims-collection-sample.yaml
