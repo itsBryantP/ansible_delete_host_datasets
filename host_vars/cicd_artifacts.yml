@@ -41,3 +41,37 @@ psbs:
   - PSBNOOG  
   - PWMGAT   
   - SEQ1     
+
+acbs:
+  - ARTDB   
+  - CUSTDB  
+  - DBFSAMD1
+  - DBFSAMD2
+  - DBFSAMD3
+  - DH41SK01
+  - DISTDB  
+  - DSVNTZ30
+  - DX41SK01
+  - DX41SK02
+  - DX41SK03
+  - DX41SK04
+  - DX41SK05
+  - DX41SK06
+  - DX41SK07
+  - DX41SK08
+  - DX41SK09
+  - HOSPVARD
+  - ITEMDB  
+  - ITEMDBP 
+  - NORDDB  
+  - ORDDB   
+  - ORDLDB  
+  - ORDRDB  
+  - PSBGENL 
+  - PSBLOAD 
+  - PSBNO   
+  - PSBNOOG 
+  - PWMGAT  
+  - STCKDB  
+  - WAREDB  
+  - WMGAT   

@@ -10,6 +10,8 @@
     - "host_vars/cicd_artifacts.yml"
 
   tasks:
+
+    #delete generated dbds
     - name: delete a data set
       zos_data_set:
         name: IMSTESTU.ANSI.DBDLIB2({{ item }})
@@ -17,9 +19,20 @@
         type: MEMBER
       loop: '{{ dbds }}'
 
+    #Delete generates psbs
     - name: delete a data set
       zos_data_set:
         name: IMSTESTU.ANSI.PSBLIB2({{ item }})
         state: absent
         type: MEMBER
       loop: '{{ psbs }}'
+
+    #Delete generates acbs
+    # - name: delete a data set
+    #   zos_data_set:
+    #     name: IMSTESTU.ANSI.ACBLIB1({{ item }})
+    #     state: absent
+    #     type: MEMBER
+    #   loop: '{{ acbs }}'
+
+   
