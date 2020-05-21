@@ -11,7 +11,7 @@
 
   tasks:
 
-    #delete generated dbds
+    #Delete generated dbds
     - name: delete a data set
       zos_data_set:
         name: IMSTESTU.ANSI.DBDLIB2({{ item }})
@@ -19,7 +19,7 @@
         type: MEMBER
       loop: '{{ dbds }}'
 
-    #Delete generates psbs
+    #Delete generated psbs
     - name: delete a data set
       zos_data_set:
         name: IMSTESTU.ANSI.PSBLIB2({{ item }})
@@ -27,7 +27,7 @@
         type: MEMBER
       loop: '{{ psbs }}'
 
-    #Delete generates acbs
+    #Delete generated acbs
     # - name: delete a data set
     #   zos_data_set:
     #     name: IMSTESTU.ANSI.ACBLIB1({{ item }})
