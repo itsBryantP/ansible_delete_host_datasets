@@ -1,0 +1,43 @@
+dbds:
+  - ARTDB   
+  - AUTODB  
+  - CUSTDB  
+  - DBDGEN02
+  - DBFSAMD1
+  - DBFSAMD2
+  - DBFSAMD3
+  - DEDBJNV1
+  - DEDBJNV2
+  - DEDBJN21
+  - DH41SK01
+  - DISTDB  
+  - DSVNTZ30
+  - DX41SK01
+  - DX41SK02
+  - DX41SK03
+  - DX41SK04
+  - DX41SK05
+  - DX41SK06
+  - DX41SK07
+  - DX41SK08
+  - DX41SK09
+  - HOSPVARD
+  - ITEMDB  
+  - ITEMDBP 
+  - NORDDB  
+  - ORDDB   
+  - ORDLDB  
+  - ORDRDB  
+  - SEQ1    
+  - STCKDB  
+  - WAREDB  
+  - WMGAT   
+
+psbs:
+  - PSBGENL  
+  - PSBGEN01 
+  - PSBLOAD  
+  - PSBNO    
+  - PSBNOOG  
+  - PWMGAT   
+  - SEQ1     

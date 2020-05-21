@@ -1,0 +1,9 @@
+ZOAU_ROOT: '/zoau'
+# ZOAU_ROOT: '/u/oeusr01/mvsutils'
+ZOSMF_HOST: EC01105A.vmec.svl.ibm.com
+ZOSMF_PORT: 443
+
+
+
+
+

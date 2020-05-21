@@ -1,0 +1,19 @@
+environment_vars:
+    # ZOAU_ROOT: '/u/oeusr01/mvsutils'
+    ZOAU_ROOT: "/usr/lpp/zoautil/v100"
+    LIBPATH: '/usr/lpp/izoda/v110/anaconda/lib:{{ ZOAU_ROOT }}/lib:/lib:/usr/lib:.'
+    ZOAUTIL_DIR: '{{ ZOAU_ROOT }}'
+    PYTHONPATH: '/usr/lpp/izoda/v110/anaconda/lib:{{ ZOAU_ROOT }}/lib:/lib:/usr/lib'
+    PYTHON_HOME: '/usr/lpp/izoda/v110/anaconda'
+    # environment variables for mvsutils/mvscmd
+    _BPXK_AUTOCVT: ON
+    _BPXK_JOBLOG: STDERR
+    _BPX_SHAREAS: YES
+    # _CEE_RUNOPTS: 'POSIX(ON),ANYHEAP(2097152,1048576,ANYWHERE,KEEP),BELOWHEAP(8192,4096,FREE),CBLPSHPOP(ON),CBLQDA(OFF),CEEDUMP(60,SYSOUT=*,FREE=END,SPIN=UNALLOC),CHECK(OFF),COUNTRY(US),NODEBUG,XPLINK(ON),DEPTHCONDLMT(4),HEAP(83886080,4194304,ANYWHERE,KEEP,1048576,524288),HEAPCHK(OFF,1,0,0,0,1024,0,1024,0),HEAPPOOLS(ON,8,10,32,10,128,10,256,10,1024,10,2048,10,0,10,0,10,0,10,0,10,0,10,0,10),STACK(65536,65536,ANYWHERE,KEEP,524288,262144),STORAGE(00,NONE,NONE,8192),THREADSTACK(OFF,65536,16384,ANYWHERE,KEEP,131072,131072),TRAP(ON,SPIE)'
+    _TAG_REDIR_ERR: txt
+    _TAG_REDIR_IN: txt
+    _TAG_REDIR_OUT: txt
+    TOOLS_ROOT: '/usr/lpp/rsusr/ported'
+    PATH: '{{ ZOAU_ROOT }}/bin:/usr/lpp/rsusr/ported/bin:/usr/lpp/java/java180/J8.0_64/bin:/bin:/var/bin:/usr/lpp/java/J8.0/bin:/usr/lpp/izoda/v110/anaconda/bin'
+    # JAVA_HOME: /usr/lpp/java/java180/J8.0_64
+    STEPLIB: IMSBLD.I15RTSMM.COMRESL1

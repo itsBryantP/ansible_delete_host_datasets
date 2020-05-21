@@ -1,0 +1,32 @@
+- hosts: zvm2
+
+  collections:
+    - ibm.ibm_zos_core
+
+  gather_facts: no
+
+  environment: "{{ environment_vars }}"
+  vars_files: 
+    - "host_vars/cicd_artifacts.yml"
+
+  tasks:
+    - name: delete a data set
+      zos_data_set:
+        name: IMSTESTU.ANSI.DBDLIB2({{ item }})
+        state: absent
+        type: MEMBER
+      loop: '{{ dbds }}'
+
+    - name: delete a data set
+      zos_data_set:
+        name: IMSTESTU.ANSI.PSBLIB2({{ item }})
+        state: absent
+        type: MEMBER
+      loop: '{{ psbs }}'
+
+   
+   
+
+
+
+# ./playbookrunner.sh playbooks/inventory playbooks/ims-collection-sample.yaml

@@ -1,0 +1,7 @@
+zsystem:
+  hosts:
+    zvm2:
+      ansible_host: ec01105a.vmec.svl.ibm.com
+      ansible_user: omvsadm
+      ansible_port: 22
+      ansible_python_interpreter: /usr/lpp/izoda/v110/anaconda/bin/python3.6
