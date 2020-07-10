@@ -4,4 +4,5 @@ zsystem:
       ansible_host: ec01105a.vmec.svl.ibm.com
       ansible_user: omvsadm
       ansible_port: 22
-      ansible_python_interpreter: /usr/lpp/izoda/v110/anaconda/bin/python3.6
+      #ansible_python_interpreter: /usr/lpp/izoda/v110/anaconda/bin/python3.6
+      ansible_python_interpreter: /python/v3.8.0-ga/usr/lpp/IBM/cyp/v3r8/pyz/bin/python
