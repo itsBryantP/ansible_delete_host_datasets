@@ -32,6 +32,16 @@ dbds:
   - STCKDB  
   - WAREDB  
   - WMGAT   
+  - DBD1 
+  - DBD2 
+  - DBD3 
+  - DBD4 
+  - DBD5 
+  - DBD6 
+  - DBD7 
+  - D1   
+  - D2   
+  - D3   
 
 psbs:
   - PSBGENL  
@@ -41,6 +51,16 @@ psbs:
   - PSBNOOG  
   - PWMGAT   
   - SEQ1     
+  - H1
+  - H2
+  - H3
+  - PSB1 
+  - PSB2 
+  - PSB3 
+  - PSB4 
+  - PSB5 
+  - PSB6 
+  - PSB7 
 
 acbs:
   - ARTDB   
