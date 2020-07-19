@@ -14,7 +14,9 @@ environment_vars:
   LANG: "C"
   STEPLIB: IMSBLD.I15RTSMM.COMRESL1
 
-
+target_acblib: IMSTESTL.ANS.ACBLIB
+target_dbdlib: IMSTESTL.ANS.DBDLIB
+target_psblib: IMSTESTL.ANS.PSBLIB
 
 # environment_vars:
 #     ZOAU_ROOT: "/usr/lpp/zoautil/v100"

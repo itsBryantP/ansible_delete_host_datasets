@@ -14,7 +14,8 @@
     #delete generated dbds
     - name: clear dbdlib
       zos_data_set:
-        name: IMSTESTU.ANSI.DBDLIB2({{ item }})
+        #name: IMSTESTU.ANSI.DBDLIB2({{ item }})
+        name: '{{ target_dbdlib }}({{ item }})'
         state: absent
         type: MEMBER
       loop: '{{ dbds }}'
@@ -22,7 +23,8 @@
     #Delete generates psbs
     - name: clear psblib
       zos_data_set:
-        name: IMSTESTU.ANSI.PSBLIB2({{ item }})
+        #name: IMSTESTU.ANSI.PSBLIB2({{ item }})
+        name: '{{ target_psblib }}({{ item }})'
         state: absent
         type: MEMBER
       loop: '{{ psbs }}'
@@ -30,9 +32,8 @@
     #Delete generates acbs
     - name: clear acblib
       zos_data_set:
-        name: IMSTESTU.ANSI.ACBLIB1({{ item }})
+        #name: IMSTESTU.ANSI.ACBLIB1({{ item }})
+        name: '{{ target_acblib }}({{ item }})'
         state: absent
         type: MEMBER
       loop: '{{ acbs }}'
-
-   
