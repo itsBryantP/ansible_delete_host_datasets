@@ -94,4 +94,16 @@ acbs:
   - PWMGAT  
   - STCKDB  
   - WAREDB  
-  - WMGAT   
+  - WMGAT
+  - H1      
+  - H2      
+  - H3      
+  - PSBGEN01
+  - PSB1    
+  - PSB2    
+  - PSB3    
+  - PSB4    
+  - PSB5    
+  - PSB6    
+  - PSB7    
+  - SEQ1       
